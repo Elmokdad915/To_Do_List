@@ -1,0 +1,99 @@
+body {
+  background-color: #101820ff;
+  font-family: "Playfair Display", serif;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasks-table {
+  width: 60%;
+  margin-top: 130px;
+  background-color: #e7ebe0ff;
+}
+
+.header {
+  width: 100%;
+  background-color: #006b38ff;
+  color: #ffffff;
+  padding: 8px 0px;
+  text-align: center;
+}
+
+.header h1 {
+  display: inline;
+}
+
+button {
+  border: none;
+  font-size: 20px;
+  box-shadow: 0px 3px 5px rgba(168, 168, 168, 0.38);
+}
+
+button.circular {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 0;
+  align-items: center;
+}
+
+#add-btn {
+  float: left;
+  background-color: #ffffff;
+  margin-left: 10px;
+}
+
+#tasks {
+  padding: 20px;
+}
+
+.task {
+  display: flex;
+  background-color: #ffffff;
+  padding: 4px;
+  border-bottom: solid black 1px;
+  transition: box-shadow 0.2s;
+}
+
+.done {
+  background-color: #93c47d;
+}
+
+.task:hover {
+  box-shadow: 0px 3px 15px rgba(97, 97, 97, 0.843);
+}
+
+.tasks-info {
+  width: 70%;
+}
+
+.tasks-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.delete-btn {
+  background-color: #720000;
+  color: #ffffff;
+}
+
+.correct-btn {
+  background-color: #00961e;
+  color: #ffffff;
+}
+
+.cancel-btn {
+  background-color: #760065;
+  color: #ffffff;
+}
+
+.edit-btn {
+  background-color: #0010c5b0;
+  color: #ffffff;
+}
